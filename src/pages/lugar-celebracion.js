@@ -23,13 +23,12 @@ const Home = (props) => {
             </div>
 
             <p>
-              La ceremonia religiosa tendrá lugar a las 18:30 en la{" "}
-              <strong>Iglesia de Santa María de la Cuesta</strong> que se
-              encuentra en la Plaza de la Cuesta, 6Z, 40200 Cuéllar, Segovia
-              para continuar con la celebración en el{" "}
-              <strong>Castillo de Íscar</strong> situado en la carretera del
-              castilo en Íscar, 47420, Valladolid. En el mapa tenéis la
-              dirección de ambos lugares por si necesitais usar el GPS.
+              La ceremonia religiosa tendrá lugar a las 12:30 en <strong>La Ermita 
+              de Nuestra Señora de los Recuerdos </strong> que se encuentra en Carr. 
+              Guadalix, 5, 28794 Colmenar Viejo, Madrid, para continuar con 
+              la celebración en la <strong>Finca Las Jarillas</strong> situada en la carretera M-607, 
+              Km 19, 900, 28049 Madrid. En el mapa tenéis la dirección de ambos 
+              lugares por si necesitáis usar GPS.
             </p>
           </div>
         </div>

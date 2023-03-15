@@ -12,7 +12,7 @@ const Home = (props) => {
             especial y si, aun así, queréis ayudarnos a que comencemos esta gran
             aventura juntos, aquí tenéis nuestro número de cuenta:
           </p>
-          <h2>ES25 2100 4967 1413 0059 9758</h2>
+          <h2>ES03 0049 3667 3721 1420 7775</h2>
           <h2>¡Muchísimas gracias!</h2>
         </div>
         <div className="listaImage">

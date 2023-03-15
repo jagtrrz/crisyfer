@@ -24,11 +24,11 @@ class Header extends React.Component {
       <div className="header">
         <div className="container">
           <div className="logo">
-              <h2>Inés & David</h2> 
+              <h2>Cris & Fer</h2> 
           </div>
           <div className="logo-mobile">
             <Link to="/">
-              <h2>Inés & David</h2> 
+              <h2>Cris & Fer</h2> 
             </Link>
           </div>
           <MenuMobile active={this.state.menuActive} />

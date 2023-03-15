@@ -3,10 +3,10 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 
 module.exports = {
-  pathPrefix: "/inesydavid",
+  pathPrefix: "/crisyfer",
   siteMetadata: {
-    title: 'Inés & David',
-    description: 'Boda de Inés y David el 18 de juno de 2022'
+    title: 'Cris & Fer',
+    description: 'Boda de Cris y Fer'
   },
   plugins: [
     'gatsby-plugin-sass',

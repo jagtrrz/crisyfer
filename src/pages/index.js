@@ -28,10 +28,10 @@ const Home = (props) => {
         </p>
         <ul>
           <li>
-            <strong>David Mesa - davidmesa@icam.es - 696 472 540</strong>
+            <strong>Fernando Muñoz - email - tlf</strong>
           </li>
           <li>
-            <strong>Inés Muñoz - inesammartin@gmail.com - 686 281 697</strong>
+            <strong>Cris XXx - email - tlf</strong>
           </li>
         </ul>
       </div>

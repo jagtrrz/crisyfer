@@ -16,7 +16,7 @@ jobs:
           cache: 'npm'
       - uses: enriikke/gatsby-gh-pages-action@v2
         with:
-          access-token: ${{ secrets.ACCESS_TOKEN }}
+          access-token: ${{ secrets.ACCESS_TOKEN_2 }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
           skip-publish: true

@@ -2,7 +2,6 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
-import Map from "../components/GoogleMap";
 import GoogleMap from "../components/GoogleMaps";
 
 

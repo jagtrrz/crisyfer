@@ -2,8 +2,6 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
-console.log("home")
-
 const Home = (props) => {
   return (
     <Layout bodyClass="page-home">
@@ -11,7 +9,7 @@ const Home = (props) => {
         <div className="background-image">
           <div className="content">
             <h2>¡NOS CASAMOS!</h2>
-            <h4>SAVE THE DATE 18/06/2022</h4>
+            <h4>SAVE THE DATE 07/10/2023</h4>
           </div>
         </div>
       </div>
@@ -28,10 +26,10 @@ const Home = (props) => {
         </p>
         <ul>
           <li>
-            <strong>Fernando Muñoz - email - tlf</strong>
+            <strong>Fernando Muñoz Martín - 629 406 500</strong>
           </li>
           <li>
-            <strong>Cris XXx - email - tlf</strong>
+            <strong>Cristina Pazos Rozalén - 650 285 964</strong>
           </li>
         </ul>
       </div>

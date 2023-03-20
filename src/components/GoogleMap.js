@@ -6,19 +6,19 @@ const containerStyle = {
   height: '32rem'
 };
 
-const center = {
-  lat: 41.37959,
-  lng: -4.42772
+const centerPosition = {
+  lat: 40.6417062,
+  lng: -3.7345112
 };
 
-const castle = {
-  lat: 41.36527,
-  lng: -4.53725
+const celebrationPlace = {
+  lat: 40.5730869,
+  lng: -3.7082064
 };
 
-const church = {
-  lat: 41.39743,
-  lng: -4.31429
+const weddingPlace = {
+  lat: 40.7027937,
+  lng: -3.7697878
 };
 
 function Map() {
@@ -31,6 +31,7 @@ function Map() {
 
   const onLoad = React.useCallback(function callback(map) {
     const bounds = new window.google.maps.LatLngBounds();
+    console.log(map)
     setMap(map)
   }, [])
 
@@ -39,32 +40,32 @@ function Map() {
   }, [])
 
   const goToIscarGoogleMap = () => {
-    const newWindow = window.open(`https://www.google.com/maps/search/?api=1&query=${castle['lat']},${castle['lng']}`, '_blank', 'noopener,noreferrer')
+    const newWindow = window.open(`https://www.google.com/maps/search/?api=1&query=${celebrationPlace['lat']},${celebrationPlace['lng']}`, '_blank', 'noopener,noreferrer')
     if (newWindow) newWindow.opener = nul
   }
 
   const goToChurchGoogleMap = () => {
-    const newWindow = window.open(`https://www.google.com/maps/search/?api=1&query=${church['lat']},${church['lng']}`, '_blank', 'noopener,noreferrer')
+    const newWindow = window.open(`https://www.google.com/maps/search/?api=1&query=${weddingPlace['lat']},${weddingPlace['lng']}`, '_blank', 'noopener,noreferrer')
     if (newWindow) newWindow.opener = nul
   }
 
   return isLoaded ? (
       <GoogleMap
         mapContainerStyle={containerStyle}
-        center={center}
+        centerPosition={centerPosition}
         zoom={10}
         onUnmount={onUnmount}
         
       >
         <Marker
             onLoad={onLoad}
-            position={castle}
+            position={celebrationPlace}
             onClick={() => {goToIscarGoogleMap()}}
             />
 
         <Marker
             onLoad={onLoad}
-            position={church}
+            position={weddingPlace}
             onClick={() => {goToChurchGoogleMap()}}
             />
       </GoogleMap>

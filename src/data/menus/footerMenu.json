@@ -1,22 +1,22 @@
 [
   {
     "name": "Portada",
-    "url": "/crisyfer/",
+    "url": "/",
     "weight": 2
   },
   {
     "name": "Lugar de Celebración",
-    "url": "/crisyfer/lugar-celebracion",
+    "url": "/lugar-celebracion",
     "weight": 3
   },
   {
     "name": "Lista de Bodas",
-    "url": "/crisyfer/lista-bodas",
+    "url": "/lista-bodas",
     "weight": 4
   },
   {
     "name": "Confirma Asistencia",
-    "url": "/crisyfer/asistencia",
+    "url": "/asistencia",
     "weight": 5
   }
 ]

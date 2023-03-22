@@ -7,6 +7,7 @@ const Home = (props) => {
     <Layout bodyClass="page-home">
       <div className="contentListaBodas" id="lista">
         <div className="listaText">
+          <h2 className="titleList">Nuestro mejor regalo, vuestra compañía</h2>
           <p className="h3Listas">
             Para nosotros, el mejor regalo es que nos acompañéis en un día tan
             especial y si, aun así, queréis ayudarnos a que comencemos esta gran

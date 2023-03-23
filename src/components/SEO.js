@@ -1,23 +1,20 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { StaticQuery, graphql } from 'gatsby';
-import favicon from '../../static/favicon.png';
+import React from "react";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
 
-const SEO = props => (
+const SEO = (props) => (
   <StaticQuery
     query={detailsQuery}
-    render={data => {
+    render={(data) => {
       const title = props.title || data.site.siteMetadata.title;
       return (
         <Helmet
           htmlAttributes={{
-            lang: 'en'
+            lang: "en",
           }}
           title={title}
           titleTemplate="Cris & Fer"
-          link={[
-            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-          ]}
+          link={[{ rel: "shortcut icon", type: "image/png", href: `` }]}
         />
       );
     }}
@@ -25,9 +22,9 @@ const SEO = props => (
 );
 
 SEO.defaultProps = {
-  lang: 'en',
+  lang: "en",
   meta: [],
-  keywords: []
+  keywords: [],
 };
 
 export default SEO;

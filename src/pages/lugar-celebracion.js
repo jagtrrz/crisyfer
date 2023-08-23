@@ -22,7 +22,7 @@ const Home = (props) => {
 
             <p>
               La ceremonia religiosa tendrá lugar a las 12:30 en <strong>La Ermita 
-              de Nuestra Señora de los Recuerdos </strong> que se encuentra en Carr. 
+              de Nuestra Señora de los Remedios </strong> que se encuentra en Carr. 
               Guadalix, 5, 28794 Colmenar Viejo, Madrid, para continuar con 
               la celebración en la <strong>Finca Las Jarillas</strong> situada en la carretera M-607, 
               Km 19, 900, 28049 Madrid. En el mapa tenéis la dirección de ambos 
